@@ -1,0 +1,23 @@
+Team Awesome
+3/4/08
+Bobby Spink
+Dunxu Hu
+Aravin Rajendra
+Josh Owen
+
+MonitorDemo
+ -Functions as Monitor, 
+ -Receives gate join notifications
+ -Notifies gates of other gate names
+ -Named Monitor in LGI
+To Run:
+java MonitorDemo LGIServerAddress
+java MonitorDemo lentil.rutgers.edu
+
+GateDemo
+ -Functions as Gate, announces itself to monitor
+ -Receives list of gates from Monitor and stores locally
+ -Named Gate-Random in LGI
+To Run:
+java GateDemo LGIServerAddress
+java GateDemo lentil.rutgers.edu
